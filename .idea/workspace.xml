@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4cf6cf-316a-4c77-a883-d0013576b48b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/search/SearchController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
         <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -84,7 +87,7 @@
       <updated>1741220685753</updated>
       <workItem from="1741220686772" duration="8271000" />
       <workItem from="1741230341034" duration="539000" />
-      <workItem from="1741230884949" duration="7511000" />
+      <workItem from="1741230884949" duration="11614000" />
     </task>
     <servers />
   </component>
