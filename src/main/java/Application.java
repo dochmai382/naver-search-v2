@@ -9,11 +9,10 @@ import util.logger.MyLogger;
 
 import java.io.FileOutputStream;
 import java.util.List;
-import java.util.logging.Level;
 
 public class Application {
     public static void main(String[] args) {
-        Dotenv dotenv = Dotenv.load();
+        Dotenv dotenv = Dotenv.configure().ignoreIfMissing().load();
         MyLogger logger = new MyLogger(Application.class);
 
         String searchKeyword = dotenv.get("SEARCH_KEYWORD");

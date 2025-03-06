@@ -10,7 +10,7 @@ public class MyLogger {
     private final Logger logger;
 
     public MyLogger(Class<?> clazz) {
-        Dotenv dotenv = Dotenv.load();
+        Dotenv dotenv = Dotenv.configure().ignoreIfMissing().load();
         this.logger = Logger.getLogger(clazz.getName());
 //        this.logger.setLevel(Level.parse(dotenv.get("LOG_LEVEL")));
 //        this.logger.setLevel(dotenv.get("MODE").equals("DEV") ? Level.INFO : Level.SEVERE);
