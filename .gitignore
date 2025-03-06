@@ -39,4 +39,7 @@ build/
 
 ### DotEnv
 .env
+
+### 파일 정리
 /.idea/sonarlint/
+*_dev.xlsx
